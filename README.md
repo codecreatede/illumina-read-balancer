@@ -1,7 +1,8 @@
 # illumina read-balancer
 
 - a go faster implementation of illumina read balancer for novaseq, nextseq reads. 
-- A C version is here : https://github.com/linsalrob/fastq-pair. The go version is much shorter, can be implemented in concurrency and also as a http browser.
+- A C version is here : https://github.com/linsalrob/fastq-pair. 
+- This go version parses the reads for a million in less than few minutes and also prepares the structs for the further use in the packages.
 
 ```
 go run main.go
@@ -9,5 +10,5 @@ go run main.go
 ```
 
 Gaurav Sablok
-University of Potsdam
+University of Potsdams
 Potsdam, Germany
